@@ -2,23 +2,17 @@
 FROM maven:3.8.4-openjdk-17-slim AS build
 WORKDIR /app
 
-# copy only what’s needed for dependency resolution first
 COPY pom.xml .
 RUN mvn dependency:go-offline -B
 
-# now copy sources and compile
 COPY src ./src
-RUN mvn package
+RUN mvn package -DskipTests
 
-# ── Stage 2: slimmer runtime ─────────────────────────────────────────────────
-FROM openjdk:17-jdk-slim
+# ── Stage 2: OpenShift-friendly runtime ──────────────────────────────────────
+FROM registry.access.redhat.com/ubi8/openjdk-17
+
 WORKDIR /app
-
-# grab the jar from the build stage
 COPY --from=build /app/target/*.jar app.jar
 
-# expose whatever your app uses (default 8080)
 EXPOSE 8080
-
-# launch
 ENTRYPOINT ["java","-jar","app.jar"]
