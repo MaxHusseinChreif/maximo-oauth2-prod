@@ -120,7 +120,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/CBSAPI")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/CBSAPI")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -168,7 +168,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/ITEMAPI")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/ITEMAPI")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -216,7 +216,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/MATUSETRANSAPI")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/MATUSETRANSAPI")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -264,7 +264,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/ASSETAPI")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/ASSETAPI")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -312,7 +312,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/INVENTORYAPI")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/INVENTORYAPI")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -360,7 +360,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/POAPI")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/POAPI")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -408,7 +408,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/SERVITEMAPI")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/SERVITEMAPI")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -456,7 +456,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/VENDORAPI")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/VENDORAPI")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -504,7 +504,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/VENDORP1API")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/VENDORP1API")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -552,7 +552,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/ITEMSERVP1API")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/ITEMSERVP1API")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -600,7 +600,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/INVENTORYP1API")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/INVENTORYP1API")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -648,7 +648,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/INVUSEP1API")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/INVUSEP1API")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -696,7 +696,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/POP1API")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/POP1API")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -744,7 +744,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/PERSONAPI")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/PERSONAPI")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -792,7 +792,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/SHIFTAPI")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/SHIFTAPI")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -840,7 +840,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/LABORSHIFTAPI")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/LABORSHIFTAPI")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -888,7 +888,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/MODAVAILAPI")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/MODAVAILAPI")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -936,7 +936,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/QUALIFICATIONAPI")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/QUALIFICATIONAPI")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -984,7 +984,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/LABORQUALAPI")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/LABORQUALAPI")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -1032,7 +1032,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/LABORCERTAPI")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/LABORCERTAPI")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
@@ -1080,7 +1080,7 @@ public class TokenController {
             
             // Build the request
             Request request = new Request.Builder()
-                    .url("https://prod.manage.eam.seven.sa/maximo/api/script/ASSETP1API")
+                    .url("https://prod-ui.manage.eam.seven.sa/maximo/api/script/ASSETP1API")
                     .addHeader("apikey", "q3othlj65fpudp4csgk4nrl07q7iri71omugd2ep")
                     .post(body)
                     .build();
